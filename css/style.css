@@ -1,0 +1,24 @@
+.page-header {
+    padding: 0;
+}
+
+.page-header__navigation-list {
+    margin: 20px;
+}
+@font-face {
+    font-family: "OpenSans", sans-serif;
+    font-style: normal;
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-family: "OpenSans", sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    color: #444444;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
