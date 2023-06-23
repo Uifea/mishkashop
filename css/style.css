@@ -86,7 +86,7 @@ body {
     height: 30px;
     bottom: -7px;
     left: 0;
-    background-image: url("images/zigzag-fill-desktop.svg.png");
+    background-image: url("../images/zigzag-fill-desktop.svg.png");
     background-repeat: repeat-x;
 }
 
@@ -160,18 +160,18 @@ body {
     font-weight: bold;
     color: #000000;
     border-top: 1px solid #ececec;
-    background-image: url("images/cart.png");
+    background-image: url("../images/cart.png");
     background-repeat: no-repeat;
     background-position: 239px 17px;
     cursor: pointer;
 }
 
 .catalog__price:hover {
-    background-image: url("images/cart-hover.png");
+    background-image: url("../images/cart-hover.png");
 }
 
 .catalog__price:active {
-    background-image: url("images/cart-copy-2.png");
+    background-image: url("../images/cart-copy-2.png");
 }
 
 .video {
@@ -196,7 +196,7 @@ body {
     top: 152px;
     width: 150px;
     height: 150px;
-    background-image: url("images/play-icon.png");
+    background-image: url("../images/play-icon.png");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -230,7 +230,7 @@ body {
     content: "";
     width: 40px;
     height: 30px;
-    background-image: url("images/video-icon.png");
+    background-image: url("../images/video-icon.png");
     background-repeat: no-repeat;
 }
 
@@ -438,7 +438,7 @@ body {
     padding-right: 40px;
     padding-bottom: 10px;
     font-weight: bold;
-    background-image: url("images/htmlacademy.png");
+    background-image: url("../images/htmlacademy.png");
     background-position: 120px 0;
     background-repeat: no-repeat;
 }
@@ -453,11 +453,11 @@ body {
 }
 
 .page-footer__copyright:hover {
-    background-image: url("images/htmlacademy-hover.png");
+    background-image: url("../images/htmlacademy-hover.png");
 }
 
 .page-footer__copyright:active {
-    background-image: url("images/htmlacademy-click.png");
+    background-image: url("../images/htmlacademy-click.png");
 }
 
 .page-footer__logo {
@@ -480,49 +480,49 @@ body {
 .instgram {
     padding: 20px;
     font-size: 0;
-    background-image: url("images/insta.png");
+    background-image: url("../images/insta.png");
     background-position: 0 20px;
     background-repeat: no-repeat;
 }
 
 .instgram:hover {
-    background-image: url("images/insta-hover.png");
+    background-image: url("../images/insta-hover.png");
 }
 
 .instgram:active {
-    background-image: url("images/insta-click.png");
+    background-image: url("../images/insta-click.png");
 }
 
 .facebook {
     padding: 20px;
     font-size: 0;
-    background-image: url("images/fb.png");
+    background-image: url("../images/fb.png");
     background-position: 0 15px;
     background-repeat: no-repeat;
 }
 
 .facebook:hover {
-    background-image: url("images/fb-hover.png");
+    background-image: url("../images/fb-hover.png");
 }
 
 .facebook:active {
-    background-image: url("images/fb-click.png");
+    background-image: url("../images/fb-click.png");
 }
 
 .twitter {
     padding: 20px;
     font-size: 0;
-    background-image: url("images/twitter.png");
+    background-image: url("../images/twitter.png");
     background-position: 0 20px;
     background-repeat: no-repeat;
 }
 
 .twitter:hover {
-    background-image: url("images/twitter-hover.png");
+    background-image: url("../images/twitter-hover.png");
 }
 
 .twitter:active {
-    background-image: url("images/twitter-click.png");
+    background-image: url("../images/twitter-click.png");
 }
 
 @media (max-width: 768px) {
@@ -594,7 +594,7 @@ body {
     height: 30px;
     bottom: -7px;
     left: 0;
-    background-image: url("images/zigzag-fill-desktop.svg.png");
+    background-image: url("../images/zigzag-fill-desktop.svg.png");
     background-repeat: repeat-x;
 }
 
@@ -647,13 +647,13 @@ body {
     display: inline-block;
     width: 53px;
     height: 52px;
-    background-image: url("images/radio-check.png");
+    background-image: url("../images/radio-check.png");
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 .filter-radio__item input[type=radio]:disabled + label::before {
-    background-image: url("images/radio-disabled.png");
+    background-image: url("../images/radio-disabled.png");
 }
 
 .filter-radio__item label {
@@ -670,13 +670,13 @@ body {
     display: inline-block;
     width: 53px;
     height: 52px;
-    background-image: url("images/radio.png");
+    background-image: url("../images/radio.png");
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 .filter-radio__item label:hover::before {
-    background-image: url("images/radio-hover.png");
+    background-image: url("../images/radio-hover.png");
 }
 
 .filter-color {
@@ -722,13 +722,13 @@ body {
     left: -38px;
     width: 60px;
     height: 60px;
-    background-image: url("images/checkbox-check.png");
+    background-image: url("../images/checkbox-check.png");
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 .filter-color__item input[type=checkbox]:disabled + label::before {
-    background-image: url("images/checkbox-disabled.png");
+    background-image: url("../images/checkbox-disabled.png");
 }
 
 .filter-color__item label {
@@ -745,13 +745,13 @@ body {
     left: -50px;
     width: 60px;
     height: 60px;
-    background-image: url("images/checkbox.png");
+    background-image: url("../images/checkbox.png");
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 .filter-color__item label:hover::before {
-    background-image: url("images/checkbox-hover.png");
+    background-image: url("../images/checkbox-hover.png");
 }
 
 .data-fullname {
@@ -868,7 +868,7 @@ body {
     border: none;
     border-bottom: 2px solid #000000;
     background-color: transparent;
-    background-image: url("images/phone.png");
+    background-image: url("../images/phone.png");
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -920,12 +920,12 @@ body {
 
 .data-contacts__phone input[type=text]:hover {
     border-bottom: 2px solid #63d1bb;
-    background-image: url("images/phone-hover.png");
+    background-image: url("../images/phone-hover.png");
 }
 
 .data-contacts__phone input[type=text]:focus {
     border-bottom: 2px solid #63d1bb;
-    background-image: url("images/phone-hover.png");
+    background-image: url("../images/phone-hover.png");
 }
 
 .data-contacts__email {
@@ -943,7 +943,7 @@ body {
     border: none;
     border-bottom: 2px solid #000000;
     background-color: transparent;
-    background-image: url("images/mail.png");
+    background-image: url("../images/mail.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -995,12 +995,12 @@ body {
 
 .data-contacts__email input[type=text]:hover {
     border-bottom: 2px solid #63d1bb;
-    background-image: url("images/mail-hover.png");
+    background-image: url("../images/mail-hover.png");
 }
 
 .data-contacts__email input[type=text]:focus {
     border-bottom: 2px solid #63d1bb;
-    background-image: url("images/mail-hover.png");
+    background-image: url("../images/mail-hover.png");
 }
 
 .comment {
@@ -1206,22 +1206,22 @@ body {
         left: -28px;
         width: 43px;
         height: 42px;
-        background-image: url("images/radio-min-check.png");
+        background-image: url("../images/radio-min-check.png");
     }
 
     .filter-radio__item input[type=radio]:disabled + label::before {
-        background-image: url("images/radio-min-disabled.png");
+        background-image: url("../images/radio-min-disabled.png");
     }
 
     .filter-radio__item label::before {
         left: -40px;
         width: 43px;
         height: 42px;
-        background-image: url("images/radio-min.png");
+        background-image: url("../images/radio-min.png");
     }
 
     .filter-radio__item label:hover::before {
-        background-image: url("images/radio-min-hover.png");
+        background-image: url("../images/radio-min-hover.png");
     }
 
     .filter-radio::after {
@@ -1266,11 +1266,11 @@ body {
         top: 11px;
         width: 40px;
         height: 40px;
-        background-image: url("images/checkbox-check-min.png");
+        background-image: url("../images/checkbox-check-min.png");
     }
 
     .filter-color__item input[type=checkbox]:disabled + label::before {
-        background-image: url("images/checkbox-disabled-min.png");
+        background-image: url("../images/checkbox-disabled-min.png");
     }
 
     .filter-color__item label {
@@ -1280,11 +1280,11 @@ body {
     .filter-color__item label::before {
         width: 40px;
         height: 40px;
-        background-image: url("images/checkbox-min.png");
+        background-image: url("../images/checkbox-min.png");
     }
 
     .filter-color__item label:hover::before {
-        background-image: url("images/checkbox-hover-min.png");
+        background-image: url("../images/checkbox-hover-min.png");
     }
 
     .filter-color::after {
@@ -1638,7 +1638,7 @@ body {
     height: 100%;
     padding: 5%;
     grid-area: search;
-    background-image: url("images/search.png");
+    background-image: url("../images/search.png");
     background-position: center;
     background-repeat: no-repeat;
     border-left: 1px solid #e7e7e7;
@@ -1648,17 +1648,17 @@ body {
 }
 
 .search:hover {
-    background-image: url("images/search-hover.png");
+    background-image: url("../images/search-hover.png");
 }
 
 .search:active {
-    background-image: url("images/search-click.png");
+    background-image: url("../images/search-click.png");
 }
 
 .cart {
     justify-self: end;
     grid-area: cart;
-    background-image: url("images/cart.png");
+    background-image: url("../images/cart.png");
     background-position: left;
     background-repeat: no-repeat;
     padding-left: 60px;
@@ -1667,12 +1667,12 @@ body {
 
 .cart:hover {
     color: rgba(0, 0, 0, 0.6);
-    background-image: url("images/cart-hover.png");
+    background-image: url("../images/cart-hover.png");
 }
 
 .cart:active {
     color: rgba(0, 0, 0, 0.3);
-    background-image: url("images/cart-copy-2.png");
+    background-image: url("../images/cart-copy-2.png");
 }
 
 .new-product {
@@ -1738,11 +1738,11 @@ body {
     }
 
     .open-menu {
-        background-image: url("images/menu.png");
+        background-image: url("../images/menu.png");
     }
 
     .close-menu {
-        background-image: url("images/menu-close.png");
+        background-image: url("../images/menu-close.png");
     }
 
     .catalog-menu {
@@ -1782,7 +1782,7 @@ body {
     }
 
     .logo-header {
-        background-image: url("images/mishka-logo-mobile.png");
+        background-image: url("../images/mishka-logo-mobile.png");
         background-position: center;
         background-repeat: no-repeat;
         margin-right: 0;
@@ -1814,7 +1814,7 @@ body {
         content: "";
         width: 21px;
         height: 21px;
-        background-image: url("images/cart.png");
+        background-image: url("../images/cart.png");
         background-repeat: no-repeat;
         background-color: transparent;
     }
@@ -1869,7 +1869,7 @@ body {
         content: "";
         width: 21px;
         height: 21px;
-        background-image: url("images/search.png");
+        background-image: url("../images/search.png");
         background-repeat: no-repeat;
         background-color: transparent;
     }
@@ -1893,7 +1893,7 @@ body {
     margin-top: 88px;
     padding-top: 165px;
     background-color: #f9f9f9;
-    background-image: url("images/hero-desktop.jpg");
+    background-image: url("../../images/hero-desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1917,7 +1917,7 @@ body {
     width: 100%;
     height: 30px;
     bottom: -7px;
-    background-image: url("images/zigzag-fill-desktop.svg.png");
+    background-image: url("../images/zigzag-fill-desktop.svg.png");
     background-repeat: repeat-x;
 }
 
@@ -1941,36 +1941,36 @@ body {
 
 .interior {
     background-color: #63d1bb;
-    background-image: url("images/interior.svg.png");
+    background-image: url("../images/interior.svg.png");
     background-repeat: no-repeat;
     background-position: 461px 29px;
 }
 
 .interior:hover {
     margin: 0;
-    background-image: url("images/interior-hover.png");
+    background-image: url("../images/interior-hover.png");
 }
 
 .interior:active {
     color: rgba(255, 255, 255, 0.3);
-    background-image: url("images/interior-click.png");
+    background-image: url("../images/interior-click.png");
 }
 
 .toys {
     background-color: #56c3b2;
-    background-image: url("images/toy-svg.png");
+    background-image: url("../images/toy-svg.png");
     background-repeat: no-repeat;
     background-position: 445px 29px;
 }
 
 .toys:hover {
     margin: 0;
-    background-image: url("images/toy-hover.png");
+    background-image: url("../images/toy-hover.png");
 }
 
 .toys:active {
     color: rgba(255, 255, 255, 0.3);
-    background-image: url("images/toy-click.png");
+    background-image: url("../images/toy-click.png");
 }
 
 .product-week {
@@ -1983,7 +1983,7 @@ body {
     display: inline-block;
     width: 100%;
     height: 30px;
-    background-image: url("images/zigzag-line-desktop.svg.png");
+    background-image: url("../images/zigzag-line-desktop.svg.png");
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -2090,32 +2090,32 @@ body {
 }
 
 .advantages__item:first-child {
-    background-image: url("images/icon-1.png");
+    background-image: url("../images/icon-1.png");
     background-repeat: no-repeat;
 }
 
 .advantages__item:nth-child(2) {
-    background-image: url("images/icon-2.png");
+    background-image: url("../images/icon-2.png");
     background-repeat: no-repeat;
 }
 
 .advantages__item:nth-child(3) {
-    background-image: url("images/icon-3.png");
+    background-image: url("../images/icon-3.png");
     background-repeat: no-repeat;
 }
 
 .advantages__item:nth-child(4) {
-    background-image: url("images/icon-4.png");
+    background-image: url("../images/icon-4.png");
     background-repeat: no-repeat;
 }
 
 .advantages__item:nth-child(5) {
-    background-image: url("images/icon-5.png");
+    background-image: url("../images/icon-5.png");
     background-repeat: no-repeat;
 }
 
 .advantages__item:nth-child(6) {
-    background-image: url("images/icon-6.png");
+    background-image: url("../images/icon-6.png");
     background-repeat: no-repeat;
 }
 
@@ -2131,7 +2131,7 @@ body {
     grid-template-rows: 55px 1fr 0.8fr;
     grid-template-areas: ". title . btn" ". text text text" ". author . slider";
     row-gap: 50px;
-    background-image: url("images/review.png");
+    background-image: url("../images/review.png");
     background-repeat: no-repeat;
 }
 
@@ -2174,7 +2174,7 @@ body {
     display: inline-block;
     width: 100%;
     height: 30px;
-    background-image: url("images/zigzag-line-desktop.svg.png");
+    background-image: url("../images/zigzag-line-desktop.svg.png");
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -2184,7 +2184,7 @@ body {
     display: inline-block;
     width: 88px;
     height: 30px;
-    background-image: url("images/huge-arrow-left.svg.png");
+    background-image: url("../images/huge-arrow-left.svg.png");
     background-position: 15px 0px;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -2192,11 +2192,11 @@ body {
 }
 
 .slider-left:hover {
-    background-image: url("images/huge-arrow-left-hover.png");
+    background-image: url("../images/huge-arrow-left-hover.png");
 }
 
 .slider-left:active {
-    background-image: url("images/huge-arrow-left-click.png");
+    background-image: url("../images/huge-arrow-left-click.png");
 }
 
 .slider-right {
@@ -2204,7 +2204,7 @@ body {
     display: inline-block;
     width: 88px;
     height: 30px;
-    background-image: url("images/huge-arrow-right.png");
+    background-image: url("../images/huge-arrow-right.png");
     background-position: 15px 0px;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -2212,11 +2212,11 @@ body {
 }
 
 .slider-right:hover {
-    background-image: url("images/huge-arrow-right-hover.png");
+    background-image: url("../images/huge-arrow-right-hover.png");
 }
 
 .slider-right:active {
-    background-image: url("images/huge-arrow-right-click.png");
+    background-image: url("../images/huge-arrow-right-click.png");
 }
 
 .contacts {
@@ -2253,7 +2253,7 @@ body {
     content: "";
     top: 100px;
     left: 75px;
-    background-image: url("images/flag.svg.png");
+    background-image: url("../images/flag.svg.png");
     background-repeat: no-repeat;
 }
 
@@ -2331,7 +2331,7 @@ body {
     }
 
     .reviews {
-        background-image: url("images/review.png");
+        background-image: url("../images/review.png");
         background-repeat: no-repeat;
         padding-bottom: 30px;
     }
