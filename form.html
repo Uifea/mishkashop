@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вязание на заказ</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="page-header wrapper">
+        <nav class="page-header__navigation-list">
+            <div class="page-header__navigation-item catalog-menu"><a href="catalog.html"><b>Каталог товаров</b></a></div>
+            <div class="page-header__navigation-item knitting"><a><b>Вязание на заказ</b></a></div>
+            <div class="page-header__navigation-item logo-header"><a href="index.html"><img src="images/mishka-logo-desktop.png"></a></div>
+            <div class="page-header__navigation-item search"><p><b>Поиск по сайту</b></p></div>
+            <div class="page-header__navigation-item cart"><p><b>Корзина: пока пуста</b></p></div>
+            <div class="page-header__navigation-item new-product"><p><b>Новые поступления</b></p></div>
+            <div class="page-header__navigation-item sale"><p><b>Распродажа</b></p></div>
+            <div class="page-header__navigation-item delivery"><p>Бесплатная доставка по России</p></div>
+        </nav>
+        <button class="open-menu"></button>
+        <button class="close-menu hide"></button>
+    </header>
+    
+    
+    <main class="form">
+        <h1 class="form__title">Вязание на заказ</h1>
+            <section class="form__content">
+                <p class="form__description">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+                <forms class="form__order">
+                    <div class="filter-radio">
+                        <div class="wrapper">
+                            <p class="form__filter-name">Тип</p>
+                            <ul class="filter-radio__list min-wrapper">
+                                <li class="filter-radio__item">
+                                    <input type="radio" name="radio" id="accessories" checked>
+                                    <label for="accessories">Аксессуар для интерьера</label>
+                                </li>
+                                <li class="filter-radio__item">
+                                    <input type="radio" name="radio" id="child-toy">
+                                    <label for="child-toy">Детская игрушка</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-color">
+                        <div class="wrapper">
+                            <p class="form__filter-name">Цвет</p>
+                            <ul class="filter-color__list min-wrapper">
+                                <li class="filter-color__item">
+                                    <input type="checkbox" name="white" id="white" checked>
+                                    <label for="white">Белый</label>
+                                </li>
+                                <li class="filter-color__item">
+                                    <input type="checkbox" name="grey" id="grey" checked>
+                                    <label for="grey">Серый</label>
+                                </li>
+                                <li class="filter-color__item">
+                                    <input type="checkbox" name="tiffany" id="tiffany">
+                                    <label for="tiffany">"Тиффани"</label>
+                                </li>
+                                <li class="filter-color__item">
+                                    <input type="checkbox" name="black" id="black">
+                                    <label for="black">Черный</label>
+                                </li>
+                                <li class="filter-color__item">
+                                    <input type="checkbox" name="pink" id="pink">
+                                    <label for="pink">Розовый</label>
+                                </li>
+                                <li class="filter-color__item">
+                                    <input type="checkbox" name="orange" id="orange">
+                                    <label for="orange">Оранжевый</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="data-fullname">
+                        <div class="wrapper">
+                            <p class="form__filter-name">ФИО</p>
+                            <div class="data-fullname__list">
+                                <div class="data-fullname__item data-fullname__name">
+                                    <label for="name">Имя:</label>
+                                    <input type="text" name="name" id="name" placeholder="Введите ваше Имя*">
+                                </div>
+                                <div class="data-fullname__item">
+                                    <label for="surname">Фамилия:</label>
+                                    <input type="text" name="surname" id="surname" placeholder="Укажите вашу фамилию*">
+                                </div>
+                                <div class="data-fullname__item">
+                                    <label for="patronymic">Отчество:</label>
+                                    <input type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-contacts">
+                        <div class="wrapper">
+                            <div class="data-contacts__phone">
+                                <p class="form__filter-name">Тел</p>
+                                <input type="text" name="phone" id="phone" placeholder="+7 XXX XX XX*">
+                            </div>
+                            <div class="data-contacts__email">
+                                <p class="form__filter-name">E-mail</p>
+                                <input type="text" name="email" id="email" placeholder="Ваш Email*">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="wrapper">
+                            <p class="form__filter-name comment__name">Доп</p>
+                            <textarea name="text" id="text" class="comment__input" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+                            <input type="submit" name="button" class="btn comment__button" value="Отправить заказ">
+                            <p class="comment__text">*Поля обязательны для заполнения</p>
+                        </div>
+                    </div>
+                </forms>
+            </section>
+    </main>
+    
+    <footer class="page-footer">
+        <div class="wrapper">
+            <div class="page-footer__logo"><img src="/images/logo-footer-hover.png"></div>
+            <div class="page-footer__social">
+                <div class="page-footer__social-list">
+                    <a href="#" class="instgram">Instagram</a>
+                    <a href="#" class="facebook">Facebook</a>
+                    <a href="#" class="twitter">Twitter</a>
+                </div>
+            </div>
+            <div class="page-footer__copyright"><a href="#">Разработано</a></div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="page-header wrapper">
+        <nav class="page-header__navigation-list">
+            <div class="page-header__navigation-item catalog-menu"><a href="catalog.html"><b>Каталог товаров</b></a></div>
+            <div class="page-header__navigation-item knitting"><a href="form.html"><b>Вязание на заказ</b></a></div>
+            <div class="page-header__navigation-item logo-header"><a><img src="images/mishka-logo-desktop.png"></a></div>
+            <div class="page-header__navigation-item search"><p><b>Поиск по сайту</b></p></div>
+            <div class="page-header__navigation-item cart"><p><b>Корзина: пока пуста</b></p></div>
+            <div class="page-header__navigation-item new-product"><p><b>Новые поступления</b></p></div>
+            <div class="page-header__navigation-item sale"><p><b>Распродажа</b></p></div>
+            <div class="page-header__navigation-item delivery"><p>Бесплатная доставка по России</p></div>
+        </nav>
+        <button class="open-menu"></button>
+        <button class="close-menu hide"></button>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="wrapper">
+                <h2 class="hero__title">Милые штуки ручной<br> работы для дома</h2>
+                <div class="hero__menu">
+                    <div class="hero__menu-item interior"><a>Предметы<br> интерьера</a></div>
+                    <div class="hero__menu-item toys">Детские<br> игрушки</div>
+                </div>
+            </div>
+        </section>
+        <section class="product-week">
+            <div class="wrapper">
+                <div class="product-week__wrapper">
+                    <div class="product-week__mark"><p>Товар недели</p></div>
+                    <h2 class="product-week__title">Вязаные корзинки</h2>
+                    <p class="product-week__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.</p>
+                    <table class="product-week__info">
+                        <tr>
+                            <td>Цвет:</td>
+                            <td>"Тиффани"/серый</td>
+                        </tr>
+                        <tr>
+                            <td>Диаметр:</td>
+                            <td>25 см</td>
+                        </tr>
+                        <tr>
+                            <td>Высота:</td>
+                            <td>15 см</td>
+                        </tr>
+                    </table>
+                    <p class="product-week__price"><b>Цена: 990 руб.</b></p>
+                    <button class="btn btn--product-week">Заказать</button>
+                    <div class="product-week__image"><img src="/images/triple-set-desktop.jpg" alt="коризинки" width="100%" height="100%"></div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages min-wrapper">
+            <h2 class="advantages__title">Коротко о нас:</h2>
+            <ul class="advantages__list">
+                <li class="advantages__item">Экологически<br> чистые материалы</li>
+                <li class="advantages__item">Связано вручную с<br> любовью и умилением</li>
+                <li class="advantages__item">Скандинавский стиль<br> по российской цене</li>
+                <li class="advantages__item">Поддержка отечественного<br> производителя</li>
+                <li class="advantages__item">Увеличивает лайки<br> на фотографиях</li>
+                <li class="advantages__item">Поставляется в<br> подарочной упаковке</li>
+            </ul>
+        </section>
+        <section class="reviews">
+            <div class="wrapper">
+                <h2 class="reviews__title">Отзывы</h2>
+                <p class="reviews__text">Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у популярных инстасамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали наиболее стильными, а также набирают больше лайков.</p>
+                <p class="reviews__author"><b>Анастасия Красильникова</b> @misssssiskras</p>
+                <button class="btn reviews__btn">Написать</button>
+                <div class="reviews__slider">
+                    <button class="slider-left"></button>
+                    <button class="slider-right"></button>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <map class="contacts__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad0543ee3892a6b5a3baf15221fc98cdd8a97a854892dbc41841a8cf6ad77929d&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe></map>
+            <h2 class="contacts__title">Контакты</h2>
+            <div class="contacts__info">
+                <p class="info-email"><span>email:</span> <span class="shop-email">infomimimishkashop.ru</span></p>
+                <p class="info-adress"><span>адрес:</span> <span class="shop-adress">г.Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</span> </p>
+            </div>
+            <button class="btn btn--contacts">Напишите нам</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="page-footer">
+        <div class="wrapper">
+            <div class="page-footer__logo"><img src="/images/logo-footer-hover.png"></div>
+            <div class="page-footer__social">
+                <div class="page-footer__social-list">
+                    <a href="#" class="instgram">Instagram</a>
+                    <a href="#" class="facebook">Facebook</a>
+                    <a href="#" class="twitter">Twitter</a>
+                </div>
+            </div>
+            <div class="page-footer__copyright"><a href="#">Разработано</a></div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
