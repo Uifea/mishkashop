@@ -23,4 +23,38 @@ btnClose.addEventListener("click", () => {
     navCart.style.opacity = "0";
 })
 
-let delButton = 10;
+let modalWindow = document.querySelector(".modal");
+let modalWindowBody = document.querySelector(".modal__body")
+let buyButtons = document.querySelectorAll(".buy");
+let buttonModalAdd = document.querySelector(".modal__button");
+
+//Функция по закрыванию и открыванию попапа
+let closeModal = function () {
+    modalWindow.classList.toggle("hide");
+}
+
+//Закрыть попап
+buttonModalAdd.addEventListener("click", () => {
+    closeModal();
+})
+
+//Закрыть попа через ескейп
+document.addEventListener("keydown", (e) => {
+    if (e.code === 'Escape' && !modalWindow.classList.contains('hide')) {
+        closeModal();
+    }
+})
+//Закрыть попап через мышку
+document.addEventListener('click', (e) => {
+    if (e.target === modalWindow) {
+        closeModal();
+    }
+})
+
+
+//Вызов попапа
+for (let buyButton of buyButtons) {
+    buyButton.addEventListener("click", () => {
+        closeModal();
+    })
+}
