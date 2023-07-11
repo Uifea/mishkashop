@@ -11,10 +11,10 @@
     <header class="page-header wrapper">
         <nav class="page-header__navigation-list">
             <div class="page-header__navigation-item catalog-menu"><a href="catalog.html"><b>Каталог товаров</b></a></div>
-            <div class="page-header__navigation-item knitting"><a><b>Вязание на заказ</b></a></div>
+            <div class="page-header__navigation-item knitting"><a href="#"><b>Вязание на заказ</b></a></div>
             <div class="page-header__navigation-item logo-header"><a href="index.html"><img src="images/mishka-logo-desktop.png"></a></div>
-            <div class="page-header__navigation-item search"><p><b>Поиск по сайту</b></p></div>
-            <div class="page-header__navigation-item cart"><p><b>Корзина: пока пуста</b></p></div>
+            <div class="page-header__navigation-item search" tabindex="0"><p><b>Поиск по сайту</b></p></div>
+            <div class="page-header__navigation-item cart" tabindex="0"><p><b>Корзина: пока пуста</b></p></div>
             <div class="page-header__navigation-item new-product"><p><b>Новые поступления</b></p></div>
             <div class="page-header__navigation-item sale"><p><b>Распродажа</b></p></div>
             <div class="page-header__navigation-item delivery"><p>Бесплатная доставка по России</p></div>
@@ -28,17 +28,17 @@
         <h1 class="form__title">Вязание на заказ</h1>
             <section class="form__content">
                 <p class="form__description">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
-                <forms class="form__order">
+                <form method="get" action="#" class="form__order">
                     <div class="filter-radio">
                         <div class="wrapper">
                             <p class="form__filter-name">Тип</p>
                             <ul class="filter-radio__list min-wrapper">
                                 <li class="filter-radio__item">
-                                    <input type="radio" name="radio" id="accessories" checked>
+                                    <input type="radio" name="radio" id="accessories" value="accessories" checked>
                                     <label for="accessories">Аксессуар для интерьера</label>
                                 </li>
                                 <li class="filter-radio__item">
-                                    <input type="radio" name="radio" id="child-toy">
+                                    <input type="radio" name="radio" id="child-toy" value="child-toy">
                                     <label for="child-toy">Детская игрушка</label>
                                 </li>
                             </ul>
@@ -49,27 +49,27 @@
                             <p class="form__filter-name">Цвет</p>
                             <ul class="filter-color__list min-wrapper">
                                 <li class="filter-color__item">
-                                    <input type="checkbox" name="white" id="white" checked>
+                                    <input type="checkbox" name="white" id="white" value="white" checked>
                                     <label for="white">Белый</label>
                                 </li>
                                 <li class="filter-color__item">
-                                    <input type="checkbox" name="grey" id="grey" checked>
+                                    <input type="checkbox" name="grey" id="grey" value="grey" checked>
                                     <label for="grey">Серый</label>
                                 </li>
                                 <li class="filter-color__item">
-                                    <input type="checkbox" name="tiffany" id="tiffany">
+                                    <input type="checkbox" name="tiffany" id="tiffany" value="tiffany">
                                     <label for="tiffany">"Тиффани"</label>
                                 </li>
                                 <li class="filter-color__item">
-                                    <input type="checkbox" name="black" id="black">
+                                    <input type="checkbox" name="black" id="black" value="black">
                                     <label for="black">Черный</label>
                                 </li>
                                 <li class="filter-color__item">
-                                    <input type="checkbox" name="pink" id="pink">
+                                    <input type="checkbox" name="pink" id="pink" value="pink">
                                     <label for="pink">Розовый</label>
                                 </li>
                                 <li class="filter-color__item">
-                                    <input type="checkbox" name="orange" id="orange">
+                                    <input type="checkbox" name="orange" id="orange" value="orange">
                                     <label for="orange">Оранжевый</label>
                                 </li>
                             </ul>
@@ -81,11 +81,11 @@
                             <div class="data-fullname__list">
                                 <div class="data-fullname__item data-fullname__name">
                                     <label for="name">Имя:</label>
-                                    <input type="text" name="name" id="name" placeholder="Введите ваше Имя*">
+                                    <input type="text" name="name" id="name" placeholder="Введите ваше Имя*" required>
                                 </div>
                                 <div class="data-fullname__item">
                                     <label for="surname">Фамилия:</label>
-                                    <input type="text" name="surname" id="surname" placeholder="Укажите вашу фамилию*">
+                                    <input type="text" name="surname" id="surname" placeholder="Укажите вашу фамилию*" required>
                                 </div>
                                 <div class="data-fullname__item">
                                     <label for="patronymic">Отчество:</label>
@@ -98,11 +98,11 @@
                         <div class="wrapper">
                             <div class="data-contacts__phone">
                                 <p class="form__filter-name">Тел</p>
-                                <input type="text" name="phone" id="phone" placeholder="+7 XXX XX XX*">
+                                <input type="text" min="7" max="13" name="phone" id="phone" placeholder="+7 XXX XX XX*" pattern="\+\d \d{3} \d{3} \d{2} \d{2}" required>
                             </div>
                             <div class="data-contacts__email">
                                 <p class="form__filter-name">E-mail</p>
-                                <input type="text" name="email" id="email" placeholder="Ваш Email*">
+                                <input type="email" name="email" id="email" placeholder="Ваш Email*" required>
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                             <p class="comment__text">*Поля обязательны для заполнения</p>
                         </div>
                     </div>
-                </forms>
+                </form>
             </section>
     </main>
     

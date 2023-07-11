@@ -12,9 +12,9 @@
         <nav class="page-header__navigation-list">
             <div class="page-header__navigation-item catalog-menu"><a href="catalog.html"><b>Каталог товаров</b></a></div>
             <div class="page-header__navigation-item knitting"><a href="form.html"><b>Вязание на заказ</b></a></div>
-            <div class="page-header__navigation-item logo-header"><a><img src="images/mishka-logo-desktop.png"></a></div>
-            <div class="page-header__navigation-item search"><p><b>Поиск по сайту</b></p></div>
-            <div class="page-header__navigation-item cart"><p><b>Корзина: пока пуста</b></p></div>
+            <div class="page-header__navigation-item logo-header"><a href="#"><img src="images/mishka-logo-desktop.png"></a></div>
+            <div class="page-header__navigation-item search" tabindex="0"><p><b>Поиск по сайту</b></p></div>
+            <div class="page-header__navigation-item cart" tabindex="0"><p><b>Корзина: пока пуста</b></p></div>
             <div class="page-header__navigation-item new-product"><p><b>Новые поступления</b></p></div>
             <div class="page-header__navigation-item sale"><p><b>Распродажа</b></p></div>
             <div class="page-header__navigation-item delivery"><p>Бесплатная доставка по России</p></div>
@@ -53,8 +53,27 @@
                         </tr>
                     </table>
                     <p class="product-week__price"><b>Цена: 990 руб.</b></p>
-                    <button class="btn btn--product-week">Заказать</button>
+                    <button class="btn btn--product-week buy">Заказать</button>
                     <div class="product-week__image"><img src="images/triple-set-desktop.jpg" alt="коризинки" width="100%" height="100%"></div>
+                </div>
+                <div class="modal hide">
+                    <div class="modal__body">
+                        <h3 class="modal__title">Добавить в корзину</h3>
+                        <p class="modal__size">Выберете размер:</p>
+                        <div class="modal__size-radio">
+                            <input type="radio" class="modal__radio-button" name="size"  id="size-s" checked>
+                            <label for="size-s" tabindex="0">S</label>
+                        </div>
+                        <div class="modal__size-radio">
+                            <input type="radio" class="modal__radio-button" name="size"  id="size-m">
+                            <label for="size-m" tabindex="0">M</label>
+                        </div>
+                        <div class="modal__size-radio">
+                            <input type="radio" class="modal__radio-button" name="size"  id="size-l">
+                            <label for="size-l" tabindex="0">L</label>
+                        </div>
+                        <button class="btn modal__button" tabindex="0">Добавить</button>
+                    </div>
                 </div>
             </div>
         </section>

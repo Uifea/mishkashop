@@ -10,11 +10,11 @@
 <body>
     <header class="page-header wrapper">
         <nav class="page-header__navigation-list">
-            <div class="page-header__navigation-item catalog-menu"><a><b>Каталог товаров</b></a></div>
+            <div class="page-header__navigation-item catalog-menu"><a href="#"><b>Каталог товаров</b></a></div>
             <div class="page-header__navigation-item knitting"><a href="form.html"><b>Вязание на заказ</b></a></div>
             <div class="page-header__navigation-item logo-header"><a href="index.html"><img src="images/mishka-logo-desktop.png"></a></div>
-            <div class="page-header__navigation-item search"><p><b>Поиск по сайту</b></p></div>
-            <div class="page-header__navigation-item cart"><p><b>Корзина: пока пуста</b></p></div>
+            <div class="page-header__navigation-item search" tabindex="0"><p><b>Поиск по сайту</b></p></div>
+            <div class="page-header__navigation-item cart" tabindex="0"><p><b>Корзина: пока пуста</b></p></div>
             <div class="page-header__navigation-item new-product"><p><b>Новые поступления</b></p></div>
             <div class="page-header__navigation-item sale"><p><b>Распродажа</b></p></div>
             <div class="page-header__navigation-item delivery"><p>Бесплатная доставка по России</p></div>
@@ -36,7 +36,10 @@
                         <h3 class="catalog__title">Зайчик-попрыгайчик</h3>
                         <p class="catalog__description">Рост 30 см, вес 200г</p>
                     </div>
-                    <p class="catalog__price">1200 руб.</p>
+                    <div class="catalog__price">
+                        <p>1200 руб.</p>
+                        <button class="buy catalog__btn" tabindex="0"></button>
+                    </div>
                 </div>
                 <div class="catalog__item">
                     <picture class="catalog__image">
@@ -48,7 +51,10 @@
                         <h3 class="catalog__title">Корзинка для белья</h3>
                         <p class="catalog__description">Диаметр 15 см, высота 10 см</p>
                     </div>
-                    <p class="catalog__price">690 руб.</p>
+                    <div class="catalog__price">
+                        <p>690 руб.</p>
+                        <button class="buy catalog__btn" tabindex="0"></button>
+                    </div>
                 </div>
                 <div class="catalog__item">
                     <picture class="catalog__image">
@@ -60,7 +66,10 @@
                         <h3 class="catalog__title">Большая корзинка <br>для игрушек</h3>
                         <p class="catalog__description">Диаметр 30 см, высота 30 см</p>
                     </div>
-                    <p class="catalog__price">1500 руб.</p>
+                    <div class="catalog__price">
+                        <p>1500 руб.</p>
+                        <button class="buy catalog__btn" tabindex="0"></button>
+                    </div>
                 </div>
             </div>
             <div class="video">
@@ -73,7 +82,26 @@
                 </div>
                 <h3 class="video__title">Процесс производства</h3>
                 <p class="video__description">По просьбам наших любимых фоловеров мы сняли для вас подробное видео о том, как появляются наши товары</p>
-                <a class="btn btn--video">Сделать заказ</a>
+                <button class="btn btn--video buy" tabindex="0">Сделать заказ</button>
+            </div>
+            <div class="modal hide">
+                <div class="modal__body">
+                    <h3 class="modal__title">Добавить в корзину</h3>
+                    <p class="modal__size">Выберете размер:</p>
+                    <div class="modal__size-radio" >
+                        <input type="radio" name="size"  id="size-s" tabindex="0" checked>
+                        <label for="size-s">S</label>
+                    </div>
+                    <div class="modal__size-radio" >
+                        <input type="radio" name="size"  id="size-m" tabindex="0">
+                        <label for="size-m">M</label>
+                    </div>
+                    <div class="modal__size-radio">
+                        <input type="radio" name="size"  id="size-l" tabindex="0">
+                        <label for="size-l">L</label>
+                    </div>
+                    <button class="btn modal__button">Добавить</button>
+                </div>
             </div>
         </section>
     </main>
