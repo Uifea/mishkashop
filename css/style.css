@@ -163,6 +163,21 @@ body {
     .wrapper, .min-wrapper {
         max-width: 668px;
     }
+
+    .modal__body {
+        padding: 15%;
+        row-gap: 10px;
+    }
+
+    .modal__title {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .modal__size-radio label {
+        width: 200%;
+    }
 }
 
 @media (max-width: 480px) {
