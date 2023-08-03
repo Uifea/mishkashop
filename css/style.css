@@ -2453,6 +2453,10 @@ body {
     grid-area: info;
 }
 
+[class*=copyrights-pane] {
+    display: none !important;
+}
+
 .info-email, .info-adress {
     display: -webkit-box;
     display: -ms-flexbox;
