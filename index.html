@@ -12,7 +12,7 @@
         <nav class="page-header__navigation-list">
             <div class="page-header__navigation-item catalog-menu"><a href="catalog.html"><b>Каталог товаров</b></a></div>
             <div class="page-header__navigation-item knitting"><a href="form.html"><b>Вязание на заказ</b></a></div>
-            <div class="page-header__navigation-item logo-header"><a href="#"><img src="images/mishka-logo-desktop.png"></a></div>
+            <div class="page-header__navigation-item logo-header"><a href="index.html"><img src="images/mishka-logo-desktop.png"></a></div>
             <div class="page-header__navigation-item search" tabindex="0"><p><b>Поиск по сайту</b></p></div>
             <div class="page-header__navigation-item cart" tabindex="0"><p><b>Корзина: пока пуста</b></p></div>
             <div class="page-header__navigation-item new-product"><p><b>Новые поступления</b></p></div>
@@ -101,7 +101,8 @@
             </div>
         </section>
         <section class="contacts">
-            <map class="contacts__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad0543ee3892a6b5a3baf15221fc98cdd8a97a854892dbc41841a8cf6ad77929d&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe></map>
+            <div class="contacts__map" id="map-contact">
+            </div>
             <h2 class="contacts__title">Контакты</h2>
             <div class="contacts__info">
                 <p class="info-email"><span>email:</span> <span class="shop-email">infomimimishkashop.ru</span></p>
@@ -126,6 +127,7 @@
             <div class="page-footer__copyright"><a href="#">Разработано</a></div>
         </div>
     </footer>
+    <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=fa089a71-3bd7-402e-9afe-84544998b0c0&?apikey=fa089a71-3bd7-402e-9afe-84544998b0c0&load=package.standard&lang=ru-RU"></script>
     <script src="js/main.min.js"></script>
 </body>
 </html>
