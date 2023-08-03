@@ -23,6 +23,32 @@ btnClose.addEventListener("click", () => {
     navCart.style.opacity = "0";
 })
 
+function init() {
+    let map = new ymaps.Map('map-contact', {
+        center: [59.93863106417265,30.323036499999905],
+        zoom: 17
+    });
+
+    let placemark = new ymaps.Placemark([59.93863106417265,30.323036499999905], {}, {
+        iconLayout: 'default#image',
+        iconImageHref: 'images/map-pin.png',
+        iconImageSize: [68, 90],
+        iconImageOffset: [-30, -60]
+    });
+
+    map.controls.remove('geolocationControl'); // удаляем геолокацию
+    map.controls.remove('searchControl'); // удаляем поиск
+    map.controls.remove('trafficControl'); // удаляем контроль трафика
+    map.controls.remove('typeSelector'); // удаляем тип
+    map.controls.remove('fullscreenControl'); // удаляем кнопку перехода в полноэкранный режим
+    map.controls.remove('zoomControl'); // удаляем контрол зуммирования
+    map.controls.remove('rulerControl'); // удаляем контрол правил
+    map.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
+
+    map.geoObjects.add(placemark);
+}
+
+ymaps.ready(init);
 let modalWindow = document.querySelector(".modal");
 let modalWindowBody = document.querySelector(".modal__body")
 let buyButtons = document.querySelectorAll(".buy");
